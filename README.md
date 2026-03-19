@@ -8,7 +8,7 @@ Research into Operating System Internals, focusing on process memory manipulatio
 
 
 
-\## 🪟 Windows: DLL Injection (OOP C++)
+\##  Windows: DLL Injection (OOP C++)
 
 \* Virtual Memory Allocation (`VirtualAllocEx`).
 
@@ -20,13 +20,14 @@ Research into Operating System Internals, focusing on process memory manipulatio
 
 
 
-\## 🐧 Linux: API Hooking (C)
+\##  Linux: API Hooking (C)
 
 \* `LD\_PRELOAD` dynamic linker manipulation.
+
+\* File System Hooking: Auditing `unlink` for anti-forensics.
 
 \* Memory Protection: Blocking RWX `mmap` requests (Anti-Shellcode IPS).
 
 \* Execution Hooking: Blocking Reverse Shells via `execve`.
 
-\* File System Hooking: Auditing `unlink` for anti-forensics.
 
