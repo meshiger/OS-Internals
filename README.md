@@ -8,7 +8,7 @@ Research into Operating System Internals, focusing on process memory manipulatio
 
 
 
-\##  Windows: DLL Injection (OOP C++)
+\# Windows: DLL Injection (OOP C++)
 
 \* Virtual Memory Allocation (`VirtualAllocEx`).
 
@@ -20,7 +20,7 @@ Research into Operating System Internals, focusing on process memory manipulatio
 
 
 
-\##  Linux: API Hooking (C)
+\#  Linux: API Hooking (C)
 
 \* `LD\_PRELOAD` dynamic linker manipulation.
 
