@@ -8,26 +8,26 @@ Research into Operating System Internals, focusing on process memory manipulatio
 
 
 
- Windows: DLL Injection (OOP C++)
+ Windows: DLL Injection (OOP, C++)
 
- Virtual Memory Allocation (`VirtualAllocEx`).
+ Virtual Memory Allocation (VirtualAllocEx).
 
- Standard Injection (`CreateRemoteThread`).
+ Standard Injection (CreateRemoteThread).
 
- APC Injection (`QueueUserAPC`).
+ APC Injection (QueueUserAPC).
 
- Context Hijacking (`GetThreadContext`, modifying RIP/RCX registers).
+ Context Hijacking (GetThreadContext, modifying RIP/RCX registers).
 
 
 
   Linux: API Hooking (C)
 
- `LD\_PRELOAD` dynamic linker manipulation.
+ LD\_PRELOAD dynamic linker manipulation.
 
- File System Hooking: Auditing `unlink` for anti-forensics.
+ File System Hooking: Auditing unlink for anti-forensics.
 
- Memory Protection: Blocking RWX `mmap` requests (Anti-Shellcode IPS).
+ Memory Protection: Blocking RWX mmap requests.
 
- Execution Hooking: Blocking Reverse Shells via `execve`.
+ Execution Hooking: Blocking Reverse Shells via execve.
 
 
